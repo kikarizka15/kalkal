@@ -1,6 +1,8 @@
+# Tranformasi
+
 # Animasi Transformasi Geometri 2D (Translasi & Refleksi) Menggunakan Python
 ## 1. Gambaran Umum
-### Transformasi geometri merupakan konsep dasar dalam matematika dan komputasi grafis yang digunakan untuk mengubah posisi suatu objek tanpa mengubah bentuk aslinya. Dalam implementasi ini, sebuah bangun datar 2D dianimasikan menggunakan Python untuk memperlihatkan dua proses utama, yaitu translasi (pergeseran) dan refleksi (pencerminan terhadap sumbu-X) secara simultan.
+Transformasi geometri merupakan konsep dasar dalam matematika dan komputasi grafis yang digunakan untuk mengubah posisi suatu objek tanpa mengubah bentuk aslinya. Dalam implementasi ini, sebuah bangun datar 2D dianimasikan menggunakan Python untuk memperlihatkan dua proses utama, yaitu translasi (pergeseran) dan refleksi (pencerminan terhadap sumbu-X) secara simultan.
 
 Pendekatan ini memanfaatkan perhitungan matriks dan visualisasi dinamis sehingga proses transformasi dapat diamati secara bertahap, bukan hanya hasil akhirnya.
 
@@ -21,7 +23,7 @@ Representasi ini penting karena setiap transformasi hanya bekerja pada koordinat
 
 ## 3. Konsep Transformasi yang Digunakan
 ### a. Translasi (Pergeseran)
-        Translasi adalah perpindahan objek dari satu posisi ke posisi lain tanpa mengubah ukuran atau bentuk.
+Translasi adalah perpindahan objek dari satu posisi ke posisi lain tanpa mengubah ukuran atau bentuk.
 
 $T =
 \left[
@@ -39,7 +41,7 @@ Nilai ty berubah secara bertahap dari 0 hingga nilai maksimum
 Efeknya adalah objek terlihat "bergerak turun"
 
 ### b. Refleksi terhadap Sumbu-X
-        Refleksi adalah transformasi yang membalik posisi objek terhadap suatu garis acuan.
+Refleksi adalah transformasi yang membalik posisi objek terhadap suatu garis acuan.
 
 $R =
 \left[
@@ -55,7 +57,6 @@ Koordinat y berubah tanda (positif menjadi negatif atau sebaliknya)
 Bentuk tetap sama, hanya posisi terbalik secara vertikal
 
 ## 4. Konsep Koordinat Homogen
-
 Agar translasi dapat dilakukan menggunakan perkalian matriks, sistem koordinat diubah menjadi bentuk homogen:
 
 (x, y) → (x, y, 1)
@@ -65,19 +66,19 @@ Keuntungan metode ini:
 Translasi dapat dihitung menggunakan matriks
 Memudahkan kombinasi beberapa transformasi sekaligus
 ## 5. Alur Transformasi dalam Animasi
-        Animasi bekerja berdasarkan frame (bingkai waktu). Setiap frame menjalankan langkah berikut:
+Animasi bekerja berdasarkan frame (bingkai waktu). Setiap frame menjalankan langkah berikut:
 
 ### 1. Translasi Objek Asli
-        Objek utama digeser secara bertahap ke bawah.
+Objek utama digeser secara bertahap ke bawah.
 
 ### 2. Refleksi Objek
-        Objek dicerminkan terhadap sumbu-X terlebih dahulu.
+Objek dicerminkan terhadap sumbu-X terlebih dahulu.
 
 ### 3. Translasi Bayangan
-        Hasil refleksi juga ikut bergerak dengan arah berlawanan.
+Hasil refleksi juga ikut bergerak dengan arah berlawanan.
 
 ## 6. Visualisasi Menggunakan Matplotlib
-        Program menggunakan pustaka visualisasi untuk menampilkan hasil transformasi secara interaktif.
+Program menggunakan pustaka visualisasi untuk menampilkan hasil transformasi secara interaktif.
 
 Komponen visual:
 
