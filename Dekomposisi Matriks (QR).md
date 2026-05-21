@@ -1,6 +1,6 @@
-# Dekomposisi Matrik (QR)
+# Dekomposisi Matriks (QR)
 
-## Membuat Matrik
+## Membuat Matriks
 ![matrik](matrik.png)
 
 ### 1. Vektor Pertama
@@ -17,7 +17,7 @@
 
 ![vektor42](vektor42.png)
 
-### 5. Hasil Akhir Matrik Q dan R
+### 5. Hasil Akhir Matriks Q dan R
 ![QR](QR.png)
 
 
