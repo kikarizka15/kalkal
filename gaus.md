@@ -1,126 +1,179 @@
 # **Sistem Persamaan Linear**
 
 ## **1. Persamaan Linear**
+
 **Definisi**
 
-Persamaan linear adalah persamaan yang bisa ditulis dalam bentuk standar:
+Persamaan linear adalah persamaan yang dapat ditulis dalam bentuk:
 
-$$\begin{equation*}
-a_1x_1+a_2x_2+\cdots +a_nx_n\text{,}
-\end{equation*}$$
+$$
+a_1x_1+a_2x_2+\cdots+a_nx_n=b
+$$
 
-di mana:
+dengan:
 
-- variabel hanya berpangkat 1
+- variabel berpangkat satu
 - tidak ada perkalian antar variabel
-- koefisien adalah bilangan real
+- koefisien berupa bilangan real
 
-Jika tidak bisa ditulis dalam bentuk ini → nonlinear.
+Jika tidak memenuhi syarat tersebut maka disebut persamaan nonlinear.
+
+---
 
 ## **2. Sistem Persamaan Linear**
+
 **Definisi**
 
-Sistem persamaan linear = kumpulan beberapa persamaan linear yang melibatkan variabel yang sama.
+Sistem persamaan linear adalah kumpulan beberapa persamaan linear yang melibatkan variabel yang sama.
 
-Biasanya ditulis dengan:
-- persamaan dalam bentuk standar
-- variabel sejajar dalam kolom
+Contoh:
+
+$$
+\begin{cases}
+2x+y=7\\
+x-y=2
+\end{cases}
+$$
+
+---
 
 ## **3. Solusi Sistem Linear**
-**Apa itu solusi?**
 
-Solusi adalah sekumpulan nilai variabel yang membuat semua persamaan benar sekaligus.
+### Apa itu solusi?
 
-Jika sistem punya solusi → konsisten
+Solusi adalah nilai variabel yang memenuhi seluruh persamaan dalam sistem secara bersamaan.
 
-Jika tidak punya solusi → inkonsisten
+- Memiliki solusi → **konsisten**
+- Tidak memiliki solusi → **inkonsisten**
 
-**Kemungkinan bentuk solusi**
+### Kemungkinan Bentuk Solusi
 
-Suatu sistem linear hanya punya tiga kemungkinan:
-
-1. Tidak ada solusi
-contoh:
+#### 1. Tidak Ada Solusi
 
 $$
 \begin{cases}
-x + y = 2 \\
-x + y = 5
+2x+y=4\\
+2x+y=8
 \end{cases}
 $$
 
-<iframe src="https://www.geogebra.org/calculator/wdrqh9ph?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<iframe src="https://www.geogebra.org/calculator/u6qdsybs?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
-2. Tepat satu solusi
-contoh:
+Kedua garis sejajar sehingga tidak berpotongan.
+
+---
+
+#### 2. Tepat Satu Solusi
 
 $$
 \begin{cases}
-x + y = 5 \\
-x - y = 1
+3x+y=7\\
+x-y=1
 \end{cases}
 $$
 
-<iframe src="https://www.geogebra.org/calculator/nqynwap5?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<iframe src="https://www.geogebra.org/calculator/kqur4xby?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
-3. Tak hingga banyak solusi
-contoh:
+Kedua garis berpotongan di satu titik.
+
+---
+
+#### 3. Tak Hingga Banyak Solusi
 
 $$
 \begin{cases}
-x + y = 4 \\
-2x + 2y = 8
+x+2y=6\\
+2x+4y=12
 \end{cases}
 $$
 
-<iframe src="https://www.geogebra.org/calculator/jq6wumd9?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<iframe src="https://www.geogebra.org/calculator/kmhdhpkp?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
-## **4. Eliminasi Gauss**
-Serangkaian langkah yang disebut operasi baris yang mempertahankan penyelesaian sistem
+Persamaan kedua merupakan kelipatan persamaan pertama sehingga kedua garis berimpit.
+
+---
+
+# **4. Eliminasi Gauss**
+
+Eliminasi Gauss adalah metode untuk menyelesaikan sistem persamaan linear menggunakan operasi baris elementer hingga diperoleh bentuk tangga.
+
+### Contoh
 
 $$
 \begin{cases}
-x_1 - x_2 + x_3 = 3 \\
-2x_1 + x_2 + 8x_3 = 18 \\
-4x_1 + 2x_2 - 3x_3 = -2
+x_1+2x_2-x_3=5\\
+2x_1+5x_2+x_3=12\\
+3x_1+8x_2+2x_3=19
 \end{cases}
 $$
 
-==
+Ditulis dalam bentuk matriks diperbesar:
 
 $$
 \left[
 \begin{array}{ccc|c}
-1 & -1 & 1 & 3 \\
-2 & 1 & 8 & 18 \\
-4 & 2 & -3 & -2
+1 & 2 & -1 & 5\\
+2 & 5 & 1 & 12\\
+3 & 8 & 2 & 19
 \end{array}
 \right]
 $$
 
-**Setelah eliminasi Gauss (bentuk tangga)**
-
-$$
-\begin{cases}
-x_1 - x_2 + x_3 = 3 \\
-x_2 + 2x_3 = 4 \\
-x_3 = 2
-\end{cases}
-$$
+### Setelah Eliminasi Gauss (Bentuk Tangga)
 
 $$
 \left[
 \begin{array}{ccc|c}
-1 & -1 & 1 & 3 \\
-0 & 1 & 2 & 4 \\
-0 & 0 & 1 & 2
+1 & 2 & -1 & 5\\
+0 & 1 & 3 & 2\\
+0 & 0 & 1 & 1
 \end{array}
 \right]
 $$
 
-**Eliminasi Gauss menggunakan bentuk python**
+yang setara dengan:
 
-python
+$$
+\begin{cases}
+x_1+2x_2-x_3=5\\
+x_2+3x_3=2\\
+x_3=1
+\end{cases}
+$$
+
+### Hasil Penyelesaian
+
+Substitusi balik:
+
+$$
+x_3=1
+$$
+
+$$
+x_2+3(1)=2
+$$
+
+$$
+x_2=-1
+$$
+
+$$
+x_1+2(-1)-1=5
+$$
+
+$$
+x_1=8
+$$
+
+Sehingga diperoleh:
+
+$$
+(x_1,x_2,x_3)=(8,-1,1)
+$$
+
+### Eliminasi Gauss Menggunakan Python
+
+```python
 import numpy as np
 
 def eliminasi_gauss(A):
