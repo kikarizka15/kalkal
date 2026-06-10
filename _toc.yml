@@ -5,6 +5,7 @@ format: jb-book
 root: markdown
 chapters:
   - file: intro
+  - file: determinan
   - file: testing/persamaan
   - file: transformasi
   - file: dekomposisi
