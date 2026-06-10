@@ -11,7 +11,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# INVERS
+# Invers
 ## Diketahui:
 $A =
 \begin{bmatrix}
