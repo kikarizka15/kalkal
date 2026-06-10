@@ -6,7 +6,7 @@ root: intro
 chapters:
 - file: intro
 - file: testing/persamaan
-- file: tranformasi
+- file: transformasi
 - file: dekomposisi
 
 
