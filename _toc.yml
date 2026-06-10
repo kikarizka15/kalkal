@@ -9,3 +9,4 @@ chapters:
   - file: testing/persamaan
   - file: transformasi
   - file: dekomposisi
+  - file: svd
