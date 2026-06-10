@@ -525,3 +525,19 @@ V^T=
 \frac1{\sqrt{30}} & \frac2{\sqrt{30}} & -\frac5{\sqrt{30}}
 \end{bmatrix}
 $$
+
+#  SAGE CELL
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+
+<script>
+sagecell.makeSagecell({
+    inputLocation: '.sage'
+});
+</script>
+
+<div class="sage">
+<script type="text/x-sage">
+A = matrix([[3,1,0],[1,3,0],[0,0,2]])
+A.SVD()
+</script>
+</div>
