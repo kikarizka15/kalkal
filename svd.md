@@ -526,7 +526,8 @@ V^T=
 \end{bmatrix}
 $$
 
-##  SAGE CELL
+## SAGE CELL
+
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
 
 <script>
