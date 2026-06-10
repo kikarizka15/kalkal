@@ -4,7 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: intro
-- file: testing/persamaan
-- file: transformasi
-- file: dekomposisi
+  - file: testing/persamaan
+  - file: transformasi
+  - file: dekomposisi
