@@ -162,13 +162,13 @@ $$
 \det(C)=0
 $$
 
-Karena
+#### Karena
 
 $$
 \det(C)=0
 $$
 
-maka
+### maka
 
 $$
 \text{Matriks } C \text{ singular}
@@ -187,13 +187,13 @@ A=
 \end{bmatrix}
 $$
 
-Misalkan
+#### Misalkan
 
 $$
 A=LU
 $$
 
-dengan
+#### dengan
 
 $$
 L=
@@ -204,7 +204,7 @@ l_{31} & l_{32} & 1
 \end{bmatrix}
 $$
 
-Langkah 1
+### Langkah 1
 
 Hilangkan elemen di bawah pivot pertama $a_{11}=2$
 
@@ -222,7 +222,7 @@ $$
 [0,3,1]
 $$
 
-Kemudian
+#### Kemudian
 
 $$
 l_{31}=\frac12
@@ -238,7 +238,7 @@ $$
 [0,0,3]
 $$
 
-Sehingga diperoleh
+#### Sehingga diperoleh
 
 $$
 \begin{bmatrix}
@@ -248,17 +248,17 @@ $$
 \end{bmatrix}
 $$
 
-Langkah 2
+### Langkah 2
 
-Hilangkan elemen di bawah pivot kedua
+#### Hilangkan elemen di bawah pivot kedua
 
-Karena elemen $(3,2)$ sudah nol,
+#### Karena elemen $(3,2)$ sudah nol,
 
 $$
 l_{32}=0
 $$
 
-Matriks $U$
+#### Matriks $U$
 
 $$
 U=
@@ -269,7 +269,7 @@ U=
 \end{bmatrix}
 $$
 
-Matriks $L$
+#### Matriks $L$
 
 $$
 L=
@@ -280,7 +280,7 @@ L=
 \end{bmatrix}
 $$
 
-Hasil
+### Hasil
 
 $$
 L=
@@ -311,9 +311,9 @@ B=
 \end{bmatrix}
 $$
 
-Langkah 1
+### Langkah 1
 
-Pivot pertama $=1$
+#### Pivot pertama $=1$
 
 $$
 l_{21}=2
@@ -343,7 +343,7 @@ $$
 [0,2,4]
 $$
 
-Matriks menjadi
+#### Matriks menjadi
 
 $$
 \begin{bmatrix}
@@ -353,9 +353,9 @@ $$
 \end{bmatrix}
 $$
 
-Langkah 2
+### Langkah 2
 
-Pivot kedua $=1$
+#### Pivot kedua $=1$
 
 $$
 l_{32}=2
@@ -371,7 +371,7 @@ $$
 [0,0,2]
 $$
 
-Maka
+#### Maka
 
 $$
 U=
@@ -382,7 +382,7 @@ U=
 \end{bmatrix}
 $$
 
-Matriks $L$
+#### Matriks $L$
 
 $$
 L=
@@ -393,7 +393,7 @@ L=
 \end{bmatrix}
 $$
 
-Hasil
+### Hasil
 
 $$
 L=
@@ -424,9 +424,9 @@ C=
 \end{bmatrix}
 $$
 
-Langkah 1
+### Langkah 1
 
-Pivot pertama $=4$
+#### Pivot pertama $=4$
 
 $$
 l_{21}=\frac24=\frac12
@@ -454,7 +454,7 @@ $$
 [0,1,3]
 $$
 
-Maka
+#### Maka
 
 $$
 \begin{bmatrix}
@@ -464,9 +464,9 @@ $$
 \end{bmatrix}
 $$
 
-Langkah 2
+### Langkah 2
 
-Pivot kedua $=4$
+#### Pivot kedua $=4$
 
 $$
 l_{32}=\frac14
@@ -482,7 +482,7 @@ $$
 \left[0,0,\frac{11}{4}\right]
 $$
 
-Matriks $U$
+#### Matriks $U$
 
 $$
 U=
@@ -493,7 +493,7 @@ U=
 \end{bmatrix}
 $$
 
-Matriks $L$
+#### Matriks $L$
 
 $$
 L=
@@ -504,7 +504,7 @@ L=
 \end{bmatrix}
 $$
 
-Hasil
+### Hasil
 
 $$
 L=
@@ -524,14 +524,14 @@ U=
 \end{bmatrix}
 $$
 
-Sehingga
+### Sehingga
 
 $$
 A=LU
 $$
 
-# C. Soal Invers Matriks 3×3
-## Soal  7
+## C. Soal Invers Matriks 3×3
+### Soal  7
 
 $$
 A=
@@ -542,7 +542,7 @@ A=
 \end{bmatrix}
 $$
 
-Determinan
+### Determinan
 
 $$
 \det(A)
@@ -576,7 +576,7 @@ $$
 =3
 $$
 
-Matriks Kofaktor
+### Matriks Kofaktor
 
 $$
 C=
@@ -587,7 +587,7 @@ C=
 \end{bmatrix}
 $$
 
-Adjoin
+### Adjoin
 
 $$
 \operatorname{adj}(A)
@@ -601,7 +601,7 @@ C^T
 \end{bmatrix}
 $$
 
-Invers
+### Invers
 
 $$
 A^{-1}
@@ -641,7 +641,7 @@ B=
 \end{bmatrix}
 $$
 
-Determinan
+### eterminan
 
 $$
 \det(B)
@@ -674,7 +674,7 @@ $$
 4
 $$
 
-Matriks Kofaktor
+### Matriks Kofaktor
 
 $$
 C=
@@ -685,7 +685,7 @@ C=
 \end{bmatrix}
 $$
 
-Adjoin
+### Adjoin
 
 $$
 \operatorname{adj}(B)
@@ -697,7 +697,7 @@ $$
 \end{bmatrix}
 $$
 
-Invers
+### Invers
 
 $$
 B^{-1}
@@ -731,7 +731,7 @@ C=
 \end{bmatrix}
 $$
 
-Determinan
+### Determinan
 
 $$
 \det(C)
@@ -764,7 +764,7 @@ $$
 10
 $$
 
-Matriks Kofaktor
+### Matriks Kofaktor
 
 $$
 C_f=
@@ -775,7 +775,7 @@ C_f=
 \end{bmatrix}
 $$
 
-Adjoin
+### Adjoin
 
 $$
 \operatorname{adj}(C)
@@ -787,7 +787,7 @@ $$
 \end{bmatrix}
 $$
 
-Invers
+### Invers
 
 $$
 C^{-1}
